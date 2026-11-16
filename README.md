@@ -41,15 +41,10 @@ axis the plane was made perpendicular to).
 
 To make axes again for a plane that already has them, delete its timeline group first.
 
-<p align="center">
-  <img src="docs_planeaxes/img/createaxis.PNG" width="900"><br>
-  <em>Figure 1. Creating the axis dialog.</em>
-</p>
-
-<p align="center">
-  <img src="docs_planeaxes/img/axis.PNG" width="800"><br>
-  <em>Figure 2. Created axis as Construction Axis.</em>
-</p>
+| Plane Axes in use |
+|---|
+| <img src="docs_planeaxes/img/createaxis.PNG" width="850" alt="The Plane Axes dialog next to the bone and the plane"><br>*Figure 1. Creating the axis dialog.* |
+| <img src="docs_planeaxes/img/axis.PNG" width="850" alt="The X and Y axes created on the plane"><br>*Figure 2. Created axis as Construction Axis.* |
 
 ## Install
 

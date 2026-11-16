@@ -4,8 +4,6 @@ A Fusion add-in that gives a **construction plane its own X and Y axes**, from t
 as a datum plane in 3-matic has them. The axes are ordinary Fusion construction axes, so you
 can use them anywhere: as references, in measurements, or to build on.
 
-**Solid → Construct → Plane Axes**
-
 ## Why
 
 In 3-matic, a datum plane has its own coordinate system. Measurement protocols use it:
@@ -20,6 +18,8 @@ This add-in does all of that in one step, with the same ordinary features, so th
 stays parametric.
 
 ## Using it
+
+**Solid → Construct → Plane Axes**
 
 1. Open **Plane Axes**. A plane selected beforehand is picked up automatically.
 2. Pick:

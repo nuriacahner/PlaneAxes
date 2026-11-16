@@ -1,0 +1,13 @@
+{
+    "autodeskProduct": "Fusion360",
+    "type": "addin",
+    "id": "5e2b9d71-c34a-4f08-8b6e-9a1d7c40e253",
+    "author": "Núria Cahner",
+    "description": {
+        "": "Plane Axes: give a construction plane its own X and Y axes from two points, as a 3-matic datum plane has. Solid > Construct > Plane Axes."
+    },
+    "version": "0.2.0",
+    "runOnStartup": true,
+    "supportedOS": "windows|mac",
+    "editEnabled": true
+}

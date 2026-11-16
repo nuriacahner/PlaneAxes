@@ -9,10 +9,10 @@ can use them anywhere: as references, in measurements, or to build on.
 In 3-matic, a datum plane has its own coordinate system. Measurement protocols use it:
 "measure along the plane's X", "the plane's Y axis". In Fusion a construction plane has no
 axes of its own, so each one has to be built by hand:
-1. a sketch on the plane;
-2. the points projected into it;
-3. two perpendicular lines;
-4. an axis on each line.
+1. A sketch on the plane;
+2. The points projected into it;
+3. Two perpendicular lines;
+4. An axis on each line.
 
 This add-in does all of that in one step, with the same ordinary features, so the result
 stays parametric.
@@ -41,6 +41,16 @@ axis the plane was made perpendicular to).
 
 To make axes again for a plane that already has them, delete its timeline group first.
 
+<p align="center">
+  <img src="docs_planeaxes/img/createaxis.PNG" width="900"><br>
+  <em>Figure 1. Creating the axis dialog.</em>
+</p>
+
+<p align="center">
+  <img src="docs_planeaxes/img/axis.PNG" width="800"><br>
+  <em>Figure 2. Created axis as Construction Axis.</em>
+</p>
+
 ## Install
 
 1. Clone or copy this folder anywhere.
@@ -55,11 +65,11 @@ No extra Python packages are needed.
 ## How it works
 
 The add-in builds the same features you would make by hand:
-1. a **sketch on the plane**, with point 1 and point 2 projected into it;
-2. an **X line** from projected point 1 to projected point 2;
-3. a **Y line** from point 1, held **perpendicular** to X by a sketch constraint;
-4. a **construction axis on each line** (*Axis Through Edge*);
-5. the sketch is hidden, and everything is grouped in the timeline.
+1. A **sketch on the plane**, with point 1 and point 2 projected into it;
+2. An **X line** from projected point 1 to projected point 2;
+3. A **Y line** from point 1, held **perpendicular** to X by a sketch constraint;
+4. A **construction axis on each line** (*Axis Through Edge*);
+5. The sketch is hidden, and everything is grouped in the timeline.
 
 The plane remembers its axes in an attribute, so the add-in can tell when a plane already
 has them.
@@ -87,7 +97,7 @@ There are no offline tests: the add-in only uses Fusion's API. It was tested ins
 in a throwaway document:
 - X along the projected point 1 → point 2;
 - X perpendicular to Y, both in the plane;
-- the same after moving point 2 and tilting the plane.
+- The same after moving point 2 and tilting the plane.
 
 ## Known limits
 

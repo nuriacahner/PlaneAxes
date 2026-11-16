@@ -1,6 +1,6 @@
 # Plane Axes (PlaneAxes)
 
-A Fusion add-in that gives a **construction plane its own X and Y axes**, from two points,
+A Fusion 360 add-in that gives a **construction plane its own X and Y axes**, from two points,
 as a datum plane in 3-matic has them. The axes are ordinary Fusion construction axes, so you
 can use them anywhere: as references, in measurements, or to build on.
 
